@@ -28,10 +28,7 @@ const MDN_URLS = {
 
 const TEXT_COPY_MIME_OPTIONS = [
 	{ value: 'text/plain', label: 'Plain text' },
-	{ value: 'text/html', label: 'HTML' },
-	{ value: 'text/markdown', label: 'Markdown' },
-	{ value: 'text/rtf', label: 'Rich text (RTF)' },
-	{ value: 'image/svg+xml', label: 'SVG' }
+	{ value: 'text/html', label: 'HTML' }
 ];
 
 function CopyAsMime({ text }) {
